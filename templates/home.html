@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="blog-post">
+<h2>{{ this.title }}</h2>
+{{ this.body }}
+
+<div class="naveg_bottom">{{ this.naveg }}</div>
+</div>
+{% endblock %}
+
+{% block note %}
+  {{ this.note }}
+{% endblock %}
+
+{% block menu %}
+<ol class="list-unstyled">
+  <li>
+  <a href="{{ '/'|url }}">Apresentação</a>
+  </li>
+  <li>
+  <a href="{{ '/livro-um'|url }}"> Livro Um</a>
+  </li>
+  <li>
+  <a href="{{ '/livro-dois'|url }}">Livro Dois</a>
+  </li>
+  <li>
+  <a href="{{ '/livro-tres'|url }}">Livro Três</a>
+  </li>
+  <li>
+  <a href="{{ '/baixe-o-livro'|url }}">Baixe o Livro</a>
+  </li>
+  <li>
+  <a href="{{ '/glossario'|url }}">Glossário</a>
+  </li>
+  <li>
+  <a href="{{ '/sobre-a-traducao'|url }}">Sobre a Tradução</a>
+  </li>
+</ol>
+
+{% endblock %}

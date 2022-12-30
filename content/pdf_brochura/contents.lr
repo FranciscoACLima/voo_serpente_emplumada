@@ -1,0 +1,25 @@
+_model: page
+---
+title: Página em novo endereço
+---
+note:
+
+##### Nota:
+
+Desculpe-me, mas esta página mudou de endereço:
+
+[Acesse aqui](/baixe-o-livro/pdf-para-impressao)
+
+Francisco A C Lima
+---
+body:
+
+
+
+
+---
+naveg: [Apresentação](/) &larr; [Acima](#) &rarr; [Baixe o Livro](/baixe-o-livro)
+---
+seq: 0
+---
+_discoverable: no
