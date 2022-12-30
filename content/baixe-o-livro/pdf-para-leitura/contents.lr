@@ -1,0 +1,35 @@
+_model: page
+---
+title: PDF para Leitura
+---
+note:
+
+##### Nota:
+
+Ajude a melhorar a qualidade deste site. Encontrando qualquer erro gramatical, envie um e-mail para
+`faclsp@gmail.com`
+
+Francisco A C Lima
+---
+body:
+
+**_Abaixo você encontra_** o livro num formato preparado para leitura em computador.
+
+<a href="../../arquivos/o-voo-da-serpente-emplumada-para-leitura.pdf" alt="PDF O Voo da Serpente Emplumada para Leitura">
+  <div style="text-align: center">
+    <img class="img-responsive" src="o-voo-da-serpente-emplumada-para-leitura.png" alt="O Voo da Serpente Emplumada para Leitura" title="clique na imagem para baixar o PDF" hspace="10" vspace="10" />
+  </div>
+</a>
+
+ Para ajudar em uma leitura mais confortável, o texto está formatado em duas colunas, assim cada página ocupa a altura da tela.
+
+O arquivo PDF  abre em tela cheia, o índice possui links para todos os capítulos e há um link em as páginas  que retorna para o índice.
+
+Para baixar é só clicar [aqui](/arquivos/o-voo-da-serpente-emplumada-para-leitura.pdf "PDF - O Voo da Serpente Emplumada para Leitura")
+
+---
+naveg: [Baixe o Livro](/baixe-o-livro/) &larr; [Acima](#) &rarr; [PDF para Impressão](/baixe-o-livro/pdf-para-impressao/)
+---
+seq: 01
+---
+description: Aqui você encontra o livro O Voo da Serpente Emplumada num formato preparado para leitura em qualquer computador.O arquivo PDF  abre em tela cheia, o índice possui links para todos os capítulos.

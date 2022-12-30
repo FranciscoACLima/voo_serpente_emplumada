@@ -1,0 +1,215 @@
+/* Custom page CSS
+-------------------------------------------------- */
+
+/* Rodape Fixo no final da página*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* margin-bottom definida igual ao height do rodapé (footer) */
+  margin-bottom: 75px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height -> garante que o rodapé fique fixo */
+  height: 75px;
+  background-color: #f5f5f5;
+  padding: 6px;
+}
+
+
+/* header da página */
+
+.header {
+  background: #5b789f url(images/bg-header.png) no-repeat left;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  }
+
+.blog-header {
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.blog-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 57px;
+  font-weight: normal;
+}
+
+.blog-description {
+    font-size: 16px;
+    color: #999;
+}
+
+/* barra de navegação -> header */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .active {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-brand {
+    float: inherit;
+    height: 55px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+.blog-nav .active::after {
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+
+/* elementos vinculados aos conteúdos das páginas */
+
+.blog-main h2 {
+  margin-top: 35px;
+}
+
+/* bloco de notas e mensagens */
+
+.sidebar-module-inset {
+  font-size: 0.85em;
+}
+
+.sidebar-module-inset a {
+  font-size: 0.9em;
+}
+
+.sidebar-module-inset h5 {
+  color: #5b789f;
+  font-weight: bold;
+}
+
+/* formatação das imagens */
+
+/* legenda */
+figcaption { 
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 0.85em;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+ }
+
+img.right {
+  float: right;
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+ }
+
+img#logo {
+  box-shadow: none;
+  border-radius: 0;
+  width: 53px;
+  margin:0px;
+  margin-top: -8px;
+}
+
+/*formatação dos blocos de citação */
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20px;
+  font-size: .9em;
+  border: 0px;
+}
+
+/*paragrafo centralizado */
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20px;
+  font-size: .9em;
+  border: 0px;
+}
+
+/* barra de navegação inferior */
+
+.naveg_bottom p {
+  font-size: 0.75em;
+  text-align:center;
+  padding: 15px;
+  margin: 35px 0px;
+  border-top: 1px solid #eee;;
+  border-bottom: 1px solid #eee;;
+}
+
+
+
+
+/* menu de navegação laterarl */
+ul.list-group {
+  list-style-type: none;
+}
+
+ul.list-group ul {
+  list-style-type: disc;
+}
+
+ul.list-group ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-group ul li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+ul.list-group ul li::before {
+  content: "• ";
+  color: #337ab7;
+}

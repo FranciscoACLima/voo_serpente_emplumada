@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="blog-post">
+<h2>{{ this.title }}</h2>
+{{ this.body }}
+
+<div class="naveg_bottom">{{ this.naveg }}</div>
+</div>
+{% endblock %}
+
+{% block note %}
+  {% if this.note %}
+    {{ this.note }}
+  {% else %}
+    <h5>Reflexão:</h5>
+    <script language=javascript>
+        document.write(aleatorio())
+    </script>
+  {% endif %}
+{% endblock %}
+
+{% block menu %}
+    {% if this.children %}
+        <ul class="list-unstyled list-group"">
+            <li><a href="{{ '/'|url }}">Apresentação</a></li>
+          <li><a href="#">{{ this.title }}</a></li>
+          <ul>
+          {% for child in this.children %}
+              <li><a href="{{ child|url }}">{{ child.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </ul>
+    {% else %}
+        <ol class="list-unstyled">
+      {% for page in [site.root] if page.record_label recursive %}
+        <li><a href="{{ page|url }}">{{ page.record_label }}</a>
+            {% if page.children %}
+            <ul class="list-group">{{ loop(page.children) }}</ul>
+            {% endif %}
+        </li>
+      {% endfor %}
+        </ol>
+    {% endif %}
+{% endblock %}

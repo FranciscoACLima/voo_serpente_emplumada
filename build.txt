@@ -1,0 +1,19 @@
+criação do ambiente virtual dentro da pasta raiz do projeto trunk
+
+virtualenv venv
+venv\scripts\activate
+
+instalação do lektor
+pip install Lektor
+
+abertura do projeto para modificações
+lektor server
+
+build de teste 
+lektor.exe build --output-path build
+
+testar a compilação através de um servidor web
+python -m http.server --directory build --bind 127.0.0.1
+
+acessar servidor no diretório do build
+http://127.0.0.1:8000
